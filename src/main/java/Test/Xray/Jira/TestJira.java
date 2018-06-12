@@ -32,7 +32,7 @@ public class TestJira {
 	public void Test1() {
 		Assert.assertTrue(true);
 		ITestResult result = Reporter.getCurrentTestResult();
-		result.setAttribute("Test1", "FT-7");
+		result.setAttribute("test", "FT-7");
 	}
 
 	@Test
