@@ -37,7 +37,7 @@ public class TestJira {
 
 	@Test
 	public void Test2() {
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 		ITestResult result = Reporter.getCurrentTestResult();
 		result.setAttribute("test", "FT-8");
 	}
