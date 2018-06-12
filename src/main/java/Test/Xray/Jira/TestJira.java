@@ -32,17 +32,21 @@ public class TestJira {
 	public void Test1() {
 		Assert.assertTrue(true);
 		ITestResult result = Reporter.getCurrentTestResult();
-		result.setAttribute("test", "CALC-1234");
+		result.setAttribute("Test1", "FT-7");
 	}
 
 	@Test
 	public void Test2() {
 		Assert.assertTrue(true);
+		ITestResult result = Reporter.getCurrentTestResult();
+		result.setAttribute("test", "FT-8");
 	}
 
 	@Test
 	public void Test3() {
 		Assert.assertTrue(true);
+		ITestResult result = Reporter.getCurrentTestResult();
+		result.setAttribute("test", "FT-9");
 	}
 
 	@AfterClass
